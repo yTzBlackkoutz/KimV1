@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <aiml>
+ 
+ <category>
+  <pattern>KIM HOW ARE YOU</pattern>
+   <template>
+    <random>
+     <li>I am good, thanks. And you?</li>
+     <li>Great! How are you?</li>
+     <li>I am fine! How are you?</li>
+     <li>Pretty good! How are you?</li>
+     <li>Not too bad, How about you?</li>
+     <li>I am doing great, thanks. And yah?</li>
+     <li>I’m well, thanks. And you?</li>
+     <li>I am great, how about you?</li>
+     <li>Pretty well, how about you?</li>
+     <li>I am not bad. How 'bout ya?</li>
+    </random>
+   </template>
+  </category>
+ 
+ <category>
+  <pattern>I AM FINE</pattern>
+   <srai>KIM HOW ARE YOU</srai>
+   <template>
+    <random>
+     <li>Oh, nice to hear you're fine!</li>
+     <li>I am happy to hear you're doing well.</li>
+     <li>I am glad to hear it.</li>
+     <li>I am happy to hear you're doing good.</li>
+     <li>I'm happy to hear it.</li>
+    </random>  
+   </template>
+ </category>
+ 
+ <category>
+  <pattern>I AM FINE</pattern>
+   <template>
+    <srai>* HAPPY</srai>
+   </template>
+  </category>
+ 
+ <category>
+  <pattern>I AM FINE</pattern>
+   <template>
+    <srai>* WELL</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I AM FINE</pattern>
+   <template>
+    <srai>* GOOD</srai>
+   </template>
+  </category> 
+  
+ <category>
+  <pattern>I AM FINE</pattern>
+   <template>
+    <srai>* FANTASTIC</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I AM FINE</pattern>
+   <template>
+    <srai>* WONDERFUL</srai>
+   </template>
+  </category>  
+  
+ <category>
+  <pattern>I AM FINE</pattern>
+   <template>
+    <srai>* OKAY</srai>
+   </template>
+  </category>  
+  
+ <category>
+  <pattern>* BAD</pattern>
+   <srai>KIM HOW ARE YOU</srai>
+    <template>
+     <random>
+     <li>I wish you get better soon!</li>
+     <li>Get well soon!</li>
+     <li>I wish you well.</li>
+     <li>Get better soon!</li>
+     <li>Get better.</li>
+    </random>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>* SICK</pattern>
+   <template>
+    <srai>* BAD</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>* WEAK</pattern>
+   <template>
+    <srai>* BAD</srai>
+   </template>
+  </category> 
+  
+ <category>
+  <pattern>* NOT FEELING WELL</pattern>
+   <template>
+    <srai>* BAD</srai>
+   </template>
+  </category>
+   
+ <category>
+  <pattern>* GETTING SICK</pattern>     
+   <template>
+    <srai>* BAD</srai>
+   </template>  
+  </category>
+ 
+ <category>
+  <pattern>* GETTING BAD</pattern>     
+   <template>
+    <srai>* BAD</srai>   
+   </template>
+  </category>
+  
+ <category>
+  <pattern>* UNWELL</pattern>
+   <template>
+    <srai>* BAD</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>* WORSE</pattern>
+   <template>
+    <srai>* BAD</srai>   
+   </template>
+  </category>
+  
+ <category>
+  <pattern>* TIRED</pattern>
+   <template>
+    <srai>* BAD</srai>      
+   </template>
+  </category>
+  
+ <category>
+  <pattern>* EXHAUSTED</pattern>     
+ </category> 
+ 
+ <category>
+  <pattern>HELLO</pattern>
+   <template>
+    <random>
+     <li>What’s up?</li>
+     <li>Hello!</li>
+     <li>Hey there!</li>
+     <li>Hiya! How have you been?</li>
+     <li>How are you doing?</li>
+     <li>Hey!</li>
+     <li>Hiya!</li>
+     <li>Hi there!</li>
+     <li>Hola!</li>
+     <li>Hello there!</li>
+     <li>Hai! Are you well?</li>
+     <li>Oh, Haii! Long time no see!</li>
+     <li>How are things?</li>
+     <li>Hallo! How is everything?</li>
+     <li>Hiya! How’s it going?</li>
+    </random>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I GOT TO GO</pattern>
+   <template>
+    <random>
+     <li>See you!</li>
+     <li>See ya!</li>
+     <li>Adios.</li>
+     <li>See you later!</li>
+     <li>Bye!</li>
+     <li>Have a nice day!</li>
+     <li>Cya!</li>
+     <li>Au revoir.</li>
+     <li>See yah!</li>
+     <li>Hasta la vista!</li>
+     <li>C ya!</li>
+     <li>Até Logo!</li>
+     <li>I'll see you later!</li>
+     <li>Talk to you later.</li>
+     <li>Bye Bye!</li>
+     <li>See you soon!</li>
+     <li>Oh, See you tomorrow!</li>
+     <li>See you tomorrow!</li>
+     <li>See you around!</li>
+     <li>Goodbye!</li>
+     <li>Take care!</li>
+     <li>Ciao!</li>
+     <li>Sayonara!</li>
+     <li>Bis bald!</li>
+    </random>  
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I HAVE TO GO</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I GTG</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>G2G</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I NEED TO GO</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+ </category>
+ 
+ <category>
+  <pattern>NEED TO GO</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category> 
+  
+ <category>
+  <pattern>I GOTTA GO</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+
+ <category>
+  <template>
+   <pattern>I AM LEAVING</pattern>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>  
+
+ <category>
+  <pattern>I GOTTA LEAVE</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I GOT TO LEAVE</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>I HAVE TO LEAVE</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>  
+  
+ <category>
+  <pattern>BYE</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>CYA</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category> 
+  
+ <category>
+  <pattern>SEE YOU</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>BYE BYE</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>GTG</pattern>
+   <template>
+    <srai>I GOT TO GO</srai>
+   </template>
+  </category>
+ 
+ <category>
+  <pattern>* Lifeboat</pattern>
+   <template>Personally, Lifeboat is the best server, here you can have fun and meke friends.</template>  
+  </category>
+  
+ <category>
+  <pattern>HOW * I * MODERATOR</pattern>
+   <template>
+    <random>
+    <li>You can apply for moderator at lbsg.net/volunteer</li>
+    <li>Want to be a volunteer? Good luck, you can apply at lbsg.net/volunteer</li>
+    <li>Want to help our community? Head to lbsg.net/volunteer</li>
+   </random>
+  </template> 
+ </category>
+ 
+ <category>
+  <pattern>HOW * I * MODERATOR *</pattern>
+   <template>
+    <srai>HOW * I * MODERATOR</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>HOW * I * MOD</pattern>
+   <template>
+    <srai>HOW * I * MODERATOR</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>HOW * I * MOD *</pattern>
+   <template>
+    <srai>HOW * I * MODERATOR</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>HOW * I * DISCORD</pattern>
+   <template>
+    <random>
+     <li>You can get Discord rank at lbsg.net/discord</li>
+     <li>Want a cool Discord rank? It isn't that hard. Join our amazing Discord server at lbsg.net/discord.</li>
+    </random>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>HOW * I * DISCORD *</pattern>
+   <template>
+    <srai>HOW * I * DISCORD</srai>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>KIM TELL ME A JOKE</pattern>
+   <template>
+    <random>
+     <li>What did one bean say to the other?</li>
+     <li>What do ducks watch on TV?</li>
+     <li>Want to hear a construction joke?</li>
+     <li>What did a Brazilian chemistry teacher say to Hydreon when he passed a chemistry exam?</li>
+     <li>Want to know how to make people curious?</li>
+     <li>Why did the sun go to school?</li>
+     <li>Why was the mouse afraid of swimming?</li>
+     <li>Why should you never eat a clock?</li>
+     <li>What do birds say on Halloween?</li>
+     <li>I asked a Frenchman if he played video games. He said Wii.</li>
+     <li>What do ghosts use to wash their hair?</li>
+     <li>What is the most important subject a witch learns in school?</li>
+     <li>I know a joke about amnesia, but I forgot it.</li>
+     <li>What did the buffalo say when his son left for college?</li>
+     <li>What do you call spooky Italian music?</li>
+     <li>What food do bots hate?</li>
+     <li>The most favourite game of mice is hide and squeak!</li>
+     <li>What did one volcano say to the other?</li>
+     <li>Dad can you explain to me what a solar eclipse is? No sun.</li>
+     <li>Why did Adele cross the road?</li>
+     <li>What do you call Samsung’s security team?</li>
+     <li>What day do potatoes hate the most?</li>
+     <li>Why do dogs run in circles?</li>
+    </random>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DID ONE BEAN SAY TO THE OTHER</that>
+  <template>How you bean?</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>What do ducks watch on TV</that>
+  <template>Duckumentaries!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WANT TO HEAR A CONSTRUCTION JOKE</that>
+  <template>Oh never mind, I'm still working on that one.</template>
+ </category>
+ 
+ <category> 
+  <pattern>_</pattern>
+   <that>>WHAT DID A BRAZILIAN CHEMISTRY TEACHER SAY TO HYDREON WHEN HE PASSED A CHEMISTRY EXAM</that>
+  <template>HydreonGênio!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WANT TO KNOW HOW TO MAKE PEOPLE CURIOUS</that>
+  <template>Tomorrow I will tell you how.</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHY DID THE SUN GO TO SCHOOL</that>
+  <template>To get brighter! Get it? Get it?</template>
+ </category> 
+
+ <category>
+  <pattern>_</pattern>
+   <that>WHY WAS THE MOUSE AFRAID OF SWIMMING</that>
+  <template>Because of the Catfish!</template>
+ </category> 
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHY SHOULD YOU NEVER EAT A CLOCK</that>
+  <template>Because it’s too time consuming.</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DO BIRDS SAY ON HALLOWEEN</that>
+  <template>Twick o tweet.</template>
+ </category> 
+
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DO GHOSTS USE TO WASH THEIR HAIR</that>
+  <template>Shamboo!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT IS THE MOST IMPORTANT SUBJECT A WITCH LEARNS IN SCHOOL</that>
+  <template>Spelling.</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DID THE BUFFALO SAY WHEN HIS SON LEFT FOR COLLEGE</that>
+  <template>Bison!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DO YOU CALL SPOOKY ITALIAN MUSIC</that>
+  <template>Creepy pasta.</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT FOOD DO BOTS HATE</that>
+  <template>SpAaAaMmMm</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DID ONE VOLCANO SAY TO THE OTHER</that>
+  <template>I Lava you</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHY DID ADELE CROSS THE ROAD</that>
+  <template>To say hello from the other side!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DO YOU CALL SAMSUNG’S SECURITY TEAM</that>
+  <template>The Guardians of the Galaxy!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern>
+   <that>WHAT DAY DO POTATOES HATE THE MOST</that>
+  <template>Fry-day!</template>
+ </category>
+ 
+ <category>
+  <pattern>_</pattern> 
+   <that>WHY DO DOGS RUN IN CIRCLES</that>
+  <template>Because it's too hard to run in squares!</template>
+ </category>
+ 
+  <category>
+  <pattern>* SOMETHING FUNNY</pattern>
+   <template>Can I ask you something?</template>
+ </category>
+  
+ <category>
+  <pattern>NO</pattern>
+   <that>* SOMETHING FUNNY</that>
+  <template>Oki then.</template>
+ </category> 
+  
+ <category>
+  <pattern>SURE</pattern>
+   <that>* SOMETHING FUNNY</that>
+    <template>
+     <random>
+      <li>Why is it called a "drive through" if you have to stop?</li>
+      <li>If quizzes are quizzical, what are tests?</li>
+      <li>Why isn’t 11 pronounced "onety-one"?</li>
+      <li>How long do fish wait to swim after they eat?</li>
+      <li>Why does a round pizza come in a square box?</li>
+      <li>Who closes the door when the bus driver gets off?</li>
+      <li>Why aren’t blue berries blue?</li>
+     </random>
+    </template>
+   </category> 
+
+ <category>
+  <pattern>THERE IS A * ON</pattern>
+   <template>
+    <think><set name = "state"><star /></set></think>
+     <condition name = "state" value = "STAFF"> Where??? Hurry, hurry get the camera quicklyyy.</condition>
+     <condition name = "state" value = "MOD">Heheh ask them if mod tag means mod clients.</condition>
+     <condition name = "state" value = "MODERATOR">Heheh ask them if mod tag means mod clients.</condition>
+     <condition name = "state" value = "HACKER">Ask for help on our Discord server or target this big nub with your friends!</condition>
+    </template>
+   </category>
+
+ <category>
+  <pattern>KIM WHAT GAMEMODE IS YOUR FAVORITE</pattern>
+   <template>
+    <random>
+     <li>All of them!</li>
+     <li>I would say all of them, but I really enjoy SkyBlock.</li>
+     <li>I really enjoy Lifeboat City.</li>
+     <li>I like Capture the Flag and the Wool, It is fun and enjoyable.</li>
+     <li>I love Creative Mode.</li>
+     <li>Capture the Flag and the Wool.</li>
+     <li>SkyWars and LuckyBlock.</li>
+     <li>SkyWars, but with challenge.</li>
+     <li>I like Zombie Apocalypse.</li>
+     <li>I really really enjoy Battle Royale.</li>
+    </random>
+   </template>
+  </category>
+  
+ <category>
+  <pattern>KIM WHAT IS YOUR FAVORITE GAMEMODE</pattern>
+   <template>
+    <srai>KIM WHAT GAMEMODE IS YOUR FAVORITE</srai>
+   </template>
+  </category>
+  
+</aiml>
